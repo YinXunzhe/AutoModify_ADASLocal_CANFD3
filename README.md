@@ -1,3 +1,3 @@
 # AutoModify_ADASLocal_CANFD3
 背景：由于不同造车阶段的数据库会发生变化，Simulink仿真工程里的Can信号也需要根据变化重新mapping到仿真的物理信号。  
-本脚本用于ADAS_LocalCANFD3的IO模型修改，该模型中EP2和PPV的信号列表顺序发生了变化，但由于信号量过多，手动修改模块属性耗时耗力，因此使用该脚本批量修改BusSlector中的信号顺序并连接。
+本脚本用于ADAS_LocalCANFD3的IO模型修改，该模型中EP2和PPV的信号列表顺序发生了变化，但由于信号量过多，手动修改模块属性耗时耗力，因此使用该脚本批量修改BusSelector中的信号顺序并连接。
